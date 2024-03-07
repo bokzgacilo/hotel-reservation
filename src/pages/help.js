@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { PhoneIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { supabase } from "./utils/supabase";
+import { supabase } from "./lib/supabase";
 
 export default function Help() {
   const [faqs, setFaqs] = useState([]);

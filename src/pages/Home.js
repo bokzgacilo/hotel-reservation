@@ -1,6 +1,6 @@
 import {Heading, Stack, SimpleGrid, Spinner, Flex } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
-import { supabase } from './utils/supabase'
+import { supabase } from './lib/supabase'
 import Sidebar from './components/Sidebar'
 import RoomCard from './components/RoomCard'
 
