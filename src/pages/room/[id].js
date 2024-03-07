@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { Text, Input, Select, Box, Flex, Heading, ModalHeader, Stack, List, ListItem, ListIcon, useDisclosure, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, Spinner } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { supabase } from "../lib/supabase";
+import { supabase } from "../../lib/supabase";
 import { CheckCircleIcon, ChevronLeftIcon } from "@chakra-ui/icons";
 import Carousel from "../components/Carousel";
 import Link from "next/link";
